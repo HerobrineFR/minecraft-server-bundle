@@ -2,7 +2,7 @@
     "name": "herobrinefr/minecraft-server-bundle",
     "type": "symfony-bundle",
     "minimum-stability": "stable",
-    "version": "v1.0.0-alpha",
+    "description": "The Minecraft server bundle provides an easy way to integrate a Minecraft Java server connexion within a Symfony app.",
     "require": {
         "php": ">=8.4",
         "symfony/config": "^8.0",
@@ -17,7 +17,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "HerobrineFR\\MinecraftServerBundle\\": "src/"
+            "HerobrineFR\\Bundle\\": "src/"
         }
     },
     "authors": [

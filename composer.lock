@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dce461d76f4f401e2fdf85610806a698",
+    "content-hash": "cf1eb3ea2a153a8704358b1ff8358003",
     "packages": [
         {
             "name": "phrity/comparison",
