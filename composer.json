@@ -2,6 +2,7 @@
     "name": "herobrinefr/minecraft-server-bundle",
     "type": "symfony-bundle",
     "minimum-stability": "stable",
+    "version": "v1.0.0-alpha",
     "require": {
         "php": ">=8.4",
         "symfony/config": "^8.0",
