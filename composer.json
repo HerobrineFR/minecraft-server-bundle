@@ -1,0 +1,31 @@
+{
+    "name": "herobrinefr/minecraft-server-bundle",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=8.4",
+        "symfony/config": "^8.0",
+        "yazor/minecraft-rpc": "^1.2",
+        "symfony/http-kernel": "^8.0",
+        "symfony/dependency-injection": "^8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.94"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HerobrineFR\\MinecraftServerBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yazor",
+            "email": "yazor@herobrine.fr"
+        }
+    ],
+    "scripts": {
+        "cs:lint": "vendor/bin/php-cs-fixer check",
+        "cs:fix": "vendor/bin/php-cs-fixer fix"
+    }
+}
